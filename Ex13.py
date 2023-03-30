@@ -1,4 +1,4 @@
-print("Programa para contar de 1 até 100 ")
+print("Programa para contar de 1 até 200! ")
 contador = 1
 while contador <= 200:
     print(contador)
