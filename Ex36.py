@@ -1,10 +1,14 @@
-def bubble_sort(array):
-  n = len(array)
-  for i in range(n):
-    for j in range(0, n - i - 1):
-      if array[j] > array[j + 1]:
-        array[j], array[j + 1] = array[j + 1], array[j]
+print("-=-=-=-=-=-=-=-=-= Programa do Bubble Sort -=-=-=-=-=-=-=-=-= \n")
 
-array = [6, 5, 3, 1, 8, 7, 2, 4]
-bubble_sort(array)
-print(array)
+lista = [7, 15, 8, 2, 22, 4, 5]
+
+i = 0
+
+for j in range (0, len(lista)):
+    for i in range(0, len(lista) - 1):
+        if lista[i] > lista[i + 1]:
+            temp = lista[i]
+            lista[i] = lista[i + 1]
+            lista[i + 1] = temp
+
+print(lista)
