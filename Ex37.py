@@ -1,7 +1,7 @@
 print("-=-=-=-=-=- Programa de Busca Binária -=-=-=-=-=- \n")
 
 lista = [4, 6, 8, 12, 15, 16, 19, 22]
-valor_procurado = 4
+valor_procurado = 22
 encontrado = None
 inicio = 0
 termino = len(lista) - 1
